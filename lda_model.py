@@ -1,5 +1,6 @@
 from    gensim.corpora import Dictionary
 from    gensim.models import LdaModel
+from    gensim.models.callbacks import PerplexityMetric
 from    nltk.stem.wordnet import WordNetLemmatizer
 from    nltk.tokenize import RegexpTokenizer
 import  utils
@@ -43,9 +44,6 @@ alpha       = "symmetric"       # prior for the per-document topic distribution
 n_iters     = 400               # how many times the model goes through the corpus to INFER the topics
 eval_every  = n_iters // 10     # perplexity estimation
 
-# set up logging
-lda_logger = utils.create_logger("lda_logger")
-
 
 def train_lda(corpus, dictionary):
 
@@ -81,8 +79,13 @@ def train_lda(corpus, dictionary):
     return model
 
 
+# define the file path and load the corpus
 file_path           = "https://cs.nyu.edu/~roweis/data/nips12raw_str602.tgz"
 corpus, dictionary  = process_corpus(file_path)
+
+# set up logging
+lda_logger          = utils.create_logger("lda_logger")
+
 # load the dictionary
 _                   = dictionary[0]
-lda_model           = train_lda(corpus, dictionary.id2token)
+lda_model           = train_lda(corpus=corpus, dictionary=dictionary.id2token)
