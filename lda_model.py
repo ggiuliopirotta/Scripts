@@ -1,51 +1,18 @@
-from    gensim.corpora import Dictionary
 from    gensim.models import LdaModel
-from    gensim.models.callbacks import PerplexityMetric
-from    nltk.stem.wordnet import WordNetLemmatizer
-from    nltk.tokenize import RegexpTokenizer
 import  utils
 import  time
 
 
-def process_corpus(file_path):
-    '''
-    Download and process a corpus of documents
-    '''
-
-    tokenizer   = RegexpTokenizer(r'\w+')
-    lemmatizer  = WordNetLemmatizer()
-
-    # download and extract the corpus
-    docs        = list(utils.download_corpus(url=file_path))
-
-    # tokenize and lemmatize
-    docs_tokens = [utils.tokenize_doc(tokenizer, doc) for doc in docs]
-    docs_lemmas = [[lemmatizer.lemmatize(token) for token in doc] for doc in docs_tokens]
-
-    # add bigrams and trigrams
-    docs        = utils.add_multigrams(docs_lemmas)
-
-    # create a dictionary and filter out common terms
-    dictionary  = Dictionary(docs)
-    dictionary.filter_extremes(no_below=20, no_above=0.5)
-
-    # convert to bag-of-words
-    corpus      = [dictionary.doc2bow(doc) for doc in docs]
-    print("INFO: Successfully processed corpus")
-
-    return corpus, dictionary
-
-
 # set LDA model parameters
-n_topics    = 20
-chunk_size  = 2000              # documents processed at a time
-passes      = 20                # how many times the model goes through the corpus to LEARN the topics
+n_topics    = 100
+chunk_size  = 256              # documents processed at a time
+passes      = 1                 # how many times the model goes through the corpus to LEARN the topics
 alpha       = "symmetric"       # prior for the per-document topic distribution
-n_iters     = 400               # how many times the model goes through the corpus to INFER the topics
-eval_every  = n_iters // 10     # perplexity estimation
+n_iters     = 50                # how many times the model goes through the corpus to INFER the topics
+eval_every  = None              # perplexity estimation
 
 
-def train_lda(corpus, dictionary):
+def train_lda(corpus, dictionary, logger):
 
     _start  = time.time()
     model   = LdaModel(
@@ -55,14 +22,16 @@ def train_lda(corpus, dictionary):
         chunksize   = chunk_size,
         passes      = passes,
         alpha       = alpha,
-        eta         = 'auto',
+        eta         = "symmetric",
         eval_every  = eval_every,
         iterations  = n_iters
     )
+
     _end    = time.time()
+    print("INFO: Trained LDA model, calculating perplexity ...")
 
     utils.log_model(
-        logger      = lda_logger,
+        logger      = logger,
         model_name  = "LDA",
         params      = {
             "n_topics"      : n_topics,
@@ -72,20 +41,26 @@ def train_lda(corpus, dictionary):
             "n_iters"       : n_iters
         },
         train_time  = _end - _start,
-        perplexity  = model.log_perplexity(corpus)
+        perplexity  = utils.compute_perplexity(model=model, corpus=corpus, n_docs=10)
     )
 
-    print("INFO: Trained LDA model")
+    print("INFO: Evaluated model")
     return model
 
 
 # define the file path and load the corpus
-file_path           = "https://cs.nyu.edu/~roweis/data/nips12raw_str602.tgz"
-corpus, dictionary  = process_corpus(file_path)
+# file_path           = "https://cs.nyu.edu/~roweis/data/nips12raw_str602.tgz"
+# corpus, dictionary  = utils.process_corpus(file_path)
+corpus, dictionary  = utils.load_corpus(corpus_file="corpus.mm", dictionary_file="dictionary.dict")
+# load the dictionary
+_                   = dictionary[0]
 
 # set up logging
 lda_logger          = utils.create_logger("lda_logger")
 
-# load the dictionary
-_                   = dictionary[0]
-lda_model           = train_lda(corpus=corpus, dictionary=dictionary.id2token)
+# train the LDA model
+lda_model           = train_lda(
+    corpus      = corpus,
+    dictionary  = dictionary.id2token,
+    logger      = lda_logger
+)

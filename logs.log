@@ -1,0 +1,294 @@
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 2000, 'passes': 20, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 95.47555780410767 - Perplexity: -7.962039754799514
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 2000, 'passes': 40, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 124.8435230255127 - Perplexity: -7.88517195166144
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 3.9314751625061035 - Perplexity: None
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 2000, 'passes': 40, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 160.20402789115906 - Perplexity: -7.914447762779502
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 4.028479099273682 - Perplexity: None
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 4.313544988632202 - Perplexity: None
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 4.08048415184021 - Perplexity: None
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 7.655908823013306 - Perplexity: 2558.405404311751
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 7.690898180007935 - Perplexity: 14333.185999405905
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 7.754654884338379 - Perplexity: 15530.956401653852
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 3.896296977996826 - Perplexity: 4571.323624153748
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 2000, 'passes': 40, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 161.8004560470581 - Perplexity: 1651.8845158690835
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 6.110996961593628 - Perplexity: 4232.329941061742
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 3.98760986328125 - Perplexity: 4359.970209583519
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 4.332313776016235 - Perplexity: 4218.7524756054145
+Model: HDP - Params: {'chunk_size': 2000} - Train Time: 3.96835994720459 - Perplexity: 4258.406726879643
+Model: HDP - Params: {'chunk_size': 1000} - Train Time: 4.731389999389648 - Perplexity: 2754.5960584646887
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 4.085047721862793 - Perplexity: 3250.3265111991655
+Model: HDP - Params: {'chunk_size': 1000} - Train Time: 4.659738063812256 - Perplexity: 3576.6941418367132
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.63586688041687 - Perplexity: 2797.339225570411
+Model: HDP - Params: {'chunk_size': 128} - Train Time: 4.117882966995239 - Perplexity: 3094.2511968381227
+Model: HDP - Params: {'chunk_size': 128} - Train Time: 8.984259128570557 - Perplexity: 1208.6012420760385
+Model: HDP - Params: {'chunk_size': 128} - Train Time: 10.137583255767822 - Perplexity: 3959.286771928247
+Model: HDP - Params: {'chunk_size': 128} - Train Time: 8.430327892303467 - Perplexity: 1248.4486596860438
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 2000, 'passes': 40, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 539.1539793014526 - Perplexity: 1237.4860380195705
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 2000, 'passes': 40, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 172.87003707885742 - Perplexity: 1104.1434956574876
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 2000, 'passes': 40, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 154.85437083244324 - Perplexity: 1057.4963496748378
+Model: HDP - Params: {'chunk_size': 128} - Train Time: 8.117776870727539 - Perplexity: 1143.0398301103235
+Model: HDP - Params: {'chunk_size': 128} - Train Time: 15.404487133026123 - Perplexity: 1224.7045516248907
+Model: HDP - Params: {'chunk_size': 128} - Train Time: 6.079444885253906 - Perplexity: 3322.2047155711084
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 2000, 'passes': 40, 'alpha': 'symmetric', 'n_iters': 400} - Train Time: 723.8641140460968 - Perplexity: 1469.345287638097
+Model: HDP - Params: {'max_chunks': 100, 'chunk_size': 256} - Train Time: 5.327933073043823 - Perplexity: 3862.9340115359364
+Model: HDP - Params: {'max_chunks': 1000, 'chunk_size': 256} - Train Time: 5.5112409591674805 - Perplexity: 3517.035244518018
+Model: HDP - Params: {'max_chunks': 100, 'max_time': 60, 'chunk_size': 256} - Train Time: 81.68193888664246 - Perplexity: 3186.620120389706
+Model: HDP - Params: {'max_chunks': 500, 'max_time': 60, 'chunk_size': 256} - Train Time: 388.294233083725 - Perplexity: 3349.495202572766
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 2000, 'passes': 1, 'alpha': 'symmetric', 'n_iters': 50} - Train Time: 3.509099006652832 - Perplexity: 3036.784956214626
+Model: HDP - Params: {'max_time': 60, 'chunk_size': 256} - Train Time: 5.80520486831665 - Perplexity: 3192.036887481869
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 2000, 'passes': 1, 'alpha': 'symmetric', 'n_iters': 50} - Train Time: 1.5340931415557861 - Perplexity: 3541.815837643789
+Model: HDP - Params: {'max_time': 60, 'chunk_size': 256} - Train Time: 4.278653860092163 - Perplexity: 2653.3379187796463
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 2000, 'passes': 1, 'alpha': 'symmetric', 'n_iters': 50} - Train Time: 1.0562329292297363 - Perplexity: 3752.059961410643
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'passes': 1, 'alpha': 'symmetric', 'n_iters': 50} - Train Time: 1.0572509765625 - Perplexity: 2828.369243602283
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'passes': 1, 'alpha': 'symmetric', 'n_iters': 50} - Train Time: 3.353043794631958 - Perplexity: 2230.0479731483574
+Model: HDP - Params: {'max_time': 60, 'chunk_size': 64} - Train Time: 5.155867099761963 - Perplexity: 3471.163090456223
+Model: HDP - Params: {'max_time': 60, 'chunk_size': 128} - Train Time: 4.31793999671936 - Perplexity: 3257.294954368633
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.320849895477295 - Perplexity: 3013.345406846737
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.373008966445923 - Perplexity: 3398.5796410545563
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.854994058609009 - Perplexity: 3360.116655283349
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.618844747543335 - Perplexity: 3393.5319960876977
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.5366241931915283 - Perplexity: 3673.2589865604614
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.730128288269043 - Perplexity: 3080.8294293981403
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8826067447662354 - Perplexity: 3171.679304921601
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8503079414367676 - Perplexity: 3377.912080462217
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8634796142578125 - Perplexity: 3606.5611943068266
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8626928329467773 - Perplexity: 2768.5566853449272
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.5051567554473877 - Perplexity: 3257.631186823121
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.4664480686187744 - Perplexity: 3089.0676301709277
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.4948668479919434 - Perplexity: 2903.9919170598655
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.4840710163116455 - Perplexity: 3539.4794606676437
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.5036089420318604 - Perplexity: 2788.229505891585
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.657196044921875 - Perplexity: 3037.4606417912732
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.8601620197296143 - Perplexity: 3183.2268987944617
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.645888090133667 - Perplexity: 3043.714072412164
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.7434821128845215 - Perplexity: 2873.4542844605685
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.6725423336029053 - Perplexity: 2635.2958411413347
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.7394020557403564 - Perplexity: 2699.370769876198
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.7896370887756348 - Perplexity: 2963.3574173186585
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.7608129978179932 - Perplexity: 2975.99269710837
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.6361300945281982 - Perplexity: 2706.275407496712
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.721189260482788 - Perplexity: 2783.6142078601565
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.1152141094207764 - Perplexity: 2627.998924479537
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.202684164047241 - Perplexity: 2778.1697036229593
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.1723878383636475 - Perplexity: 2687.1211132926687
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.577298879623413 - Perplexity: 2587.091931086101
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.2190310955047607 - Perplexity: 2989.9802273947926
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.632673978805542 - Perplexity: 3141.658818489596
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.4227378368377686 - Perplexity: 3236.5428617258976
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.3227453231811523 - Perplexity: 2839.4842436020344
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.3505899906158447 - Perplexity: 2590.1725944032987
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.3004109859466553 - Perplexity: 3192.6008302150585
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.35091495513916 - Perplexity: 2522.46129466428
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.2676820755004883 - Perplexity: 3094.555409809355
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.288300037384033 - Perplexity: 2957.421212821537
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.351670980453491 - Perplexity: 3186.2229261458806
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.263936996459961 - Perplexity: 2398.3266462219344
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.564255952835083 - Perplexity: 2571.5628811283977
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.254854917526245 - Perplexity: 2677.860153875035
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.775069236755371 - Perplexity: 2821.7200967341346
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.8936986923217773 - Perplexity: 2917.7398442989584
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.7792930603027344 - Perplexity: 2807.8082247179846
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.1918578147888184 - Perplexity: 2410.029460502493
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.05336594581604 - Perplexity: 3434.1298406437513
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.97135066986084 - Perplexity: 2715.877780165324
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.9254190921783447 - Perplexity: 2799.8098835231353
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.3163809776306152 - Perplexity: 2631.7742155322903
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.8237969875335693 - Perplexity: 2766.010133067456
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.851580858230591 - Perplexity: 2878.7993123883734
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.717816114425659 - Perplexity: 3093.7950544650107
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.9048759937286377 - Perplexity: 2832.1317103660813
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.887253999710083 - Perplexity: 2785.70028183261
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.4511380195617676 - Perplexity: 2330.6716558966846
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.355103015899658 - Perplexity: 3254.337006657563
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.2981579303741455 - Perplexity: 2463.6374394055633
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.2292380332946777 - Perplexity: 2944.287440422344
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.0452229976654053 - Perplexity: 3059.3220601963903
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.3759610652923584 - Perplexity: 2923.6192190248
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.3657779693603516 - Perplexity: 2907.8477265349343
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.350365877151489 - Perplexity: 3008.3413244064673
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.403827905654907 - Perplexity: 2811.804829891424
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.459188222885132 - Perplexity: 2171.5752331241974
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.570451974868774 - Perplexity: 2811.7388452229943
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.14774489402771 - Perplexity: 3126.6540455792892
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.2971251010894775 - Perplexity: 3019.729758651762
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.4388821125030518 - Perplexity: 2668.3942071452484
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.44293475151062 - Perplexity: 2462.069989681112
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.220541000366211 - Perplexity: 2626.7224490372823
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.683988094329834 - Perplexity: 2818.6535181092167
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.4690558910369873 - Perplexity: 2591.33590938257
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.557926893234253 - Perplexity: 2590.2097045495298
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.046790838241577 - Perplexity: 2855.1179040183797
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.061175107955933 - Perplexity: 2568.4910308048998
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.7920939922332764 - Perplexity: 3114.481662759507
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.013302803039551 - Perplexity: 2153.358694719576
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.1714277267456055 - Perplexity: 2704.304423235069
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.77864408493042 - Perplexity: 2953.302063445763
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.7604572772979736 - Perplexity: 2117.85955735002
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.6103622913360596 - Perplexity: 2884.2890866146486
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.7287039756774902 - Perplexity: 2796.0298444217437
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.918890953063965 - Perplexity: 2514.4614150294815
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.69779896736145 - Perplexity: 2853.7452730589853
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.894608974456787 - Perplexity: 2643.6120261675305
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.949885845184326 - Perplexity: 2960.9251381653417
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.902172803878784 - Perplexity: 2241.5288138964047
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.8902809619903564 - Perplexity: 2523.2987904428815
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.486894130706787 - Perplexity: 2740.4600661000763
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.816994905471802 - Perplexity: 2336.4328821416802
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 7.705743074417114 - Perplexity: 2671.597468170612
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.565820932388306 - Perplexity: 2700.203904880129
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.788133144378662 - Perplexity: 2655.3237434940697
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.58447003364563 - Perplexity: 2444.6340000939576
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.647851943969727 - Perplexity: 2377.2282095581154
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.242749929428101 - Perplexity: 2594.0421651182164
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.607884645462036 - Perplexity: 2769.2683556560287
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.144507169723511 - Perplexity: 2537.2257896787823
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.683358192443848 - Perplexity: 2942.148343936978
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.469021320343018 - Perplexity: 2817.3717965055184
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.955160140991211 - Perplexity: 3178.99796437224
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.851663112640381 - Perplexity: 3317.8309187118703
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.059808731079102 - Perplexity: 2621.9685727583087
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.043752908706665 - Perplexity: 2891.214317021159
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.120036840438843 - Perplexity: 2357.7619723966345
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.876555919647217 - Perplexity: 2622.018950209014
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.620062828063965 - Perplexity: 2886.6381050161835
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.540942192077637 - Perplexity: 2444.726606946311
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.542762279510498 - Perplexity: 2515.4577402284717
+Model: LDA - Params: {'n_topics': 210, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.777653932571411 - Perplexity: 2430.7853909618866
+Model: LDA - Params: {'n_topics': 210, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.611922979354858 - Perplexity: 3356.092681801816
+Model: LDA - Params: {'n_topics': 210, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4880.812867641449 - Perplexity: 2847.5392337658354
+Model: LDA - Params: {'n_topics': 210, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 25701.00377178192 - Perplexity: 2914.8554993137423
+Model: LDA - Params: {'n_topics': 210, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.640216112136841 - Perplexity: 2753.8853593716826
+Model: LDA - Params: {'n_topics': 220, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.665515899658203 - Perplexity: 2560.5093096505525
+Model: LDA - Params: {'n_topics': 220, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.828732967376709 - Perplexity: 2430.847279446828
+Model: LDA - Params: {'n_topics': 220, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.608543872833252 - Perplexity: 2669.11928103577
+Model: LDA - Params: {'n_topics': 220, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.649340867996216 - Perplexity: 2986.088827848843
+Model: LDA - Params: {'n_topics': 220, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.903747081756592 - Perplexity: 3139.12985422765
+Model: LDA - Params: {'n_topics': 230, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 7.749462127685547 - Perplexity: 2733.9061547195256
+Model: LDA - Params: {'n_topics': 230, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.3252623081207275 - Perplexity: 2604.597841832518
+Model: LDA - Params: {'n_topics': 230, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.0709288120269775 - Perplexity: 2816.118416030997
+Model: LDA - Params: {'n_topics': 230, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.405448913574219 - Perplexity: 3075.3162620953417
+Model: LDA - Params: {'n_topics': 230, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.318514823913574 - Perplexity: 2550.364593919046
+Model: LDA - Params: {'n_topics': 240, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.408926010131836 - Perplexity: 2525.721362469999
+Model: LDA - Params: {'n_topics': 240, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.3531200885772705 - Perplexity: 2301.3159243157315
+Model: LDA - Params: {'n_topics': 240, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.480761289596558 - Perplexity: 2474.3104216850766
+Model: LDA - Params: {'n_topics': 240, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.172171115875244 - Perplexity: 2346.287540493383
+Model: LDA - Params: {'n_topics': 240, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.968328952789307 - Perplexity: 2889.4317881243624
+Model: LDA - Params: {'n_topics': 250, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 9.568423748016357 - Perplexity: 2637.382043443042
+Model: LDA - Params: {'n_topics': 250, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 11.33809518814087 - Perplexity: 2931.1165310519086
+Model: LDA - Params: {'n_topics': 250, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 7.5033509731292725 - Perplexity: 2599.022097309753
+Model: LDA - Params: {'n_topics': 250, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.680820941925049 - Perplexity: 2950.3181835865335
+Model: LDA - Params: {'n_topics': 250, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.725907325744629 - Perplexity: 3241.8647045579
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.9718761444091797 - Perplexity: 3863.741848370263
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.6986491680145264 - Perplexity: 3329.7158975092034
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8595547676086426 - Perplexity: 3330.8400100053577
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8352758884429932 - Perplexity: 3192.7103976492417
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8395159244537354 - Perplexity: 3249.8260202138167
+Model: LDA - Params: {'n_topics': 10, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 0.8572797775268555 - Perplexity: 3135.756725834917
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.549903154373169 - Perplexity: 2813.400649875553
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.6300451755523682 - Perplexity: 3036.9618123171394
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.7004821300506592 - Perplexity: 2873.316365270899
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.649714708328247 - Perplexity: 3316.447731573929
+Model: LDA - Params: {'n_topics': 20, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.5665647983551025 - Perplexity: 2809.1966861849764
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.919543981552124 - Perplexity: 2710.5439058233774
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.8756470680236816 - Perplexity: 3114.4953574262895
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.2884671688079834 - Perplexity: 2939.177097116777
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.744619131088257 - Perplexity: 2999.4549502723044
+Model: LDA - Params: {'n_topics': 30, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.6323788166046143 - Perplexity: 3330.603422527847
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.120443820953369 - Perplexity: 2763.9614646282553
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.5854551792144775 - Perplexity: 3323.6097874704737
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 1.7214069366455078 - Perplexity: 2995.5924675199976
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.823244094848633 - Perplexity: 3010.5422930536465
+Model: LDA - Params: {'n_topics': 40, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.028937816619873 - Perplexity: 2977.433580401503
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.3464882373809814 - Perplexity: 2843.1486489666045
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.204056978225708 - Perplexity: 2649.252983492845
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.479154109954834 - Perplexity: 2774.033558711424
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.321418046951294 - Perplexity: 2407.0038917816037
+Model: LDA - Params: {'n_topics': 50, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.5219058990478516 - Perplexity: 3207.615137742246
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.5000929832458496 - Perplexity: 2557.872017165978
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.450800895690918 - Perplexity: 3651.869181135082
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.4467248916625977 - Perplexity: 2978.2909218756645
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.28321099281311 - Perplexity: 2681.2778202431577
+Model: LDA - Params: {'n_topics': 60, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.5810999870300293 - Perplexity: 2480.847742240872
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.6754090785980225 - Perplexity: 2756.2568307894553
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.6658432483673096 - Perplexity: 2888.5337422955427
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.7350902557373047 - Perplexity: 3313.6284292233872
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.596388101577759 - Perplexity: 2756.4408128025175
+Model: LDA - Params: {'n_topics': 70, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.788393259048462 - Perplexity: 2833.7637482313526
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.8296420574188232 - Perplexity: 2491.972186648635
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.6649649143218994 - Perplexity: 2676.21791209924
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.8088412284851074 - Perplexity: 2373.4038111519308
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.8893136978149414 - Perplexity: 2816.1921552217646
+Model: LDA - Params: {'n_topics': 80, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.0258591175079346 - Perplexity: 3025.922524770872
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.986258029937744 - Perplexity: 2716.128405648881
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.1729090213775635 - Perplexity: 2593.8292928204014
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.526368141174316 - Perplexity: 3122.7177245111584
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.0975329875946045 - Perplexity: 2572.319767950798
+Model: LDA - Params: {'n_topics': 90, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.7647910118103027 - Perplexity: 2769.052200732022
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.845633029937744 - Perplexity: 2676.8129248140704
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.0819218158721924 - Perplexity: 2931.959187984241
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 2.9947049617767334 - Perplexity: 2960.37635500836
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.761356830596924 - Perplexity: 2507.3324027733497
+Model: LDA - Params: {'n_topics': 100, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.482524394989014 - Perplexity: 2648.3062023320076
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.480349779129028 - Perplexity: 3095.4836723716944
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.1645638942718506 - Perplexity: 2873.4032360412493
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 8.729734897613525 - Perplexity: 3053.809471794968
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.7798819541931152 - Perplexity: 2662.2824658955883
+Model: LDA - Params: {'n_topics': 110, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.8575170040130615 - Perplexity: 2889.525180444472
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.935275077819824 - Perplexity: 2729.6861276791897
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.127302885055542 - Perplexity: 2483.898708810735
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.8038928508758545 - Perplexity: 2477.166117104196
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.6351423263549805 - Perplexity: 3007.600754610381
+Model: LDA - Params: {'n_topics': 120, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.786450147628784 - Perplexity: 2521.335078935758
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.9710559844970703 - Perplexity: 2805.621751945121
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 8.16192102432251 - Perplexity: 2728.5964179748057
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 12.090672969818115 - Perplexity: 3025.754120109409
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.8173999786376953 - Perplexity: 2789.9852002060534
+Model: LDA - Params: {'n_topics': 130, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.8429720401763916 - Perplexity: 2531.3642977038985
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.973331928253174 - Perplexity: 2796.655592407365
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.319136142730713 - Perplexity: 3121.5812738644318
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.206224679946899 - Perplexity: 3002.5014265303153
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.29216194152832 - Perplexity: 2570.8978779087424
+Model: LDA - Params: {'n_topics': 140, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 3.9304041862487793 - Perplexity: 3378.496506990901
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.4292707443237305 - Perplexity: 2648.431416465798
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.128042936325073 - Perplexity: 2698.4580068757055
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.371508836746216 - Perplexity: 2789.8344583099783
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.452827215194702 - Perplexity: 2590.5431731019175
+Model: LDA - Params: {'n_topics': 150, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 7.145493030548096 - Perplexity: 2807.761948083238
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 9.803927659988403 - Perplexity: 2732.969904733628
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.6216559410095215 - Perplexity: 2814.5958679476935
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.221307992935181 - Perplexity: 2892.6461144696573
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.955250978469849 - Perplexity: 2487.4782358769694
+Model: LDA - Params: {'n_topics': 160, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.391967058181763 - Perplexity: 3102.917103775987
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.765114068984985 - Perplexity: 2524.4047987922313
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.881524324417114 - Perplexity: 2964.7632611513263
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.145294189453125 - Perplexity: 3014.9388544876074
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.609019041061401 - Perplexity: 2753.7958086506947
+Model: LDA - Params: {'n_topics': 170, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.188321828842163 - Perplexity: 2581.973306069542
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.337042808532715 - Perplexity: 2515.298259419761
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.114099025726318 - Perplexity: 2626.556508938973
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.823108911514282 - Perplexity: 2526.529147373392
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.098850965499878 - Perplexity: 2793.80619532094
+Model: LDA - Params: {'n_topics': 180, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.741481304168701 - Perplexity: 2700.0235551346505
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.346196889877319 - Perplexity: 2499.0642185483484
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.389583110809326 - Perplexity: 3082.4193419708595
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 4.772284030914307 - Perplexity: 2845.97220934896
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.488801002502441 - Perplexity: 2515.7017586461775
+Model: LDA - Params: {'n_topics': 190, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.389048099517822 - Perplexity: 3189.194259270536
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.912106037139893 - Perplexity: 2471.77839037251
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 6.244964838027954 - Perplexity: 3068.9664962594893
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.603658199310303 - Perplexity: 3316.4729957763807
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.564475059509277 - Perplexity: 2992.3558319847043
+Model: LDA - Params: {'n_topics': 200, 'chunk_size': 256, 'alpha': 'symmetric', 'eta': 'symmetric'} - Train Time: 5.747780799865723 - Perplexity: 2640.543904166648
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.353637218475342 - Perplexity: 2831.6375962201605
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.320223093032837 - Perplexity: 2993.140321181959
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.2881202697753906 - Perplexity: 3017.7741990712593
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.3081698417663574 - Perplexity: 3189.2897510778034
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.2306859493255615 - Perplexity: 3087.589490017835
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.6418540477752686 - Perplexity: 3277.912412035755
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.673635244369507 - Perplexity: 2871.9715414888474
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.658234119415283 - Perplexity: 3141.413657135497
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.778808116912842 - Perplexity: 3209.7305523970617
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.487442970275879 - Perplexity: 2893.0179974490497
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 3.6385200023651123 - Perplexity: 2822.2213862574845
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.730250120162964 - Perplexity: 2771.8188458863656
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.877580165863037 - Perplexity: 2745.4448542481105
+Model: HDP - Params: {'chunk_size': 256} - Train Time: 2.9610679149627686 - Perplexity: 2874.2519962768256
