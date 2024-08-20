@@ -3,6 +3,7 @@ from    gensim.corpora.mmcorpus import MmCorpus
 from    gensim.models import Phrases
 from    gensim.parsing.preprocessing import remove_stopwords
 import  logging
+import  matplotlib.pyplot as plt
 from    nltk.stem.wordnet import WordNetLemmatizer
 from    nltk.tokenize import RegexpTokenizer
 import  numpy as np
@@ -11,7 +12,6 @@ import  re
 import  smart_open
 import  tarfile
 
-import  matplotlib.pyplot as plt
 
 
 def create_logger(logger_name):
@@ -24,7 +24,7 @@ def create_logger(logger_name):
     logger.setLevel(logging.DEBUG)
 
     # create file handler for the logger
-    file_handler = logging.FileHandler("logs.log")
+    file_handler = logging.FileHandler("results/logs.log")
     file_handler.setLevel(logging.DEBUG)
 
     # create formatter
@@ -96,24 +96,18 @@ def process_corpus(file_path):
     Download and process a corpus of documents
     '''
 
+    # define tokenizer and lemmatizer
     tokenizer   = RegexpTokenizer(r'\w+')
     lemmatizer  = WordNetLemmatizer()
 
-    # download and extract the corpus
+    # download and process
     corpus      = list(download_corpus(url=file_path))
-
-    # filter out common stopwords
     corpus      = [remove_stopwords(doc) for doc in corpus]
-
-    # tokenize and lemmatize
     docs_tokens = [tokenize_doc(tokenizer, doc) for doc in corpus]
-    # docs_lemmas = [[lemmatizer.lemmatize(token) for token in doc] for doc in docs_tokens]
-
-    # add bigrams and trigrams
-    # docs        = add_multigrams(docs_lemmas)
-    docs = docs_tokens
+    docs_lemmas = [[lemmatizer.lemmatize(token) for token in doc] for doc in docs_tokens]
 
     # create a dictionary and filter out common terms
+    docs        = docs_tokens
     dictionary  = Dictionary(docs)
     dictionary.filter_extremes(no_below=10)
 
@@ -121,11 +115,9 @@ def process_corpus(file_path):
     corpus      = [dictionary.doc2bow(doc) for doc in docs]
 
     # save corpus and dictionary
-    # MmCorpus.serialize("corpus.mm", corpus)
-    # dictionary.save("dictionary.dict")
-
+    MmCorpus.serialize("data/corpus.mm", corpus)
+    dictionary.save("data/dictionary.dict")
     print("INFO: Successfully processed corpus")
-    return corpus, dictionary
 
 
 def shuffle_corpus(corpus):
@@ -140,6 +132,7 @@ def shuffle_corpus(corpus):
 
     for idx in idxs:
         shuffled_corpus.append(indexed_corpus[idx])
+
     return corpus
 
 
@@ -162,8 +155,10 @@ def create_folds(corpus, folds_size):
 
     indexed_corpus = {idx: doc for idx, doc in enumerate(corpus)}
     folds = []
+
     for i in range(0, len(corpus), folds_size):
         folds.append([indexed_corpus[idx] for idx in range(i, i+folds_size)])
+
     return folds
 
 def log_model(logger, model_name, params, train_time, perplexity):
@@ -185,7 +180,8 @@ def compute_perplexity(model, corpus, n_docs):
     Compute the average perplexity of a model on a corpus
     '''
 
-    idxs    = np.random.choice(a=np.arange(len(corpus)), size=n_docs, replace=False)
+    # select docs to be evaluated
+    idxs = np.random.choice(a=np.arange(len(corpus)), size=n_docs, replace=False)
 
     tot_log_likelihood  = 0
     tot_words           = 0
@@ -210,7 +206,7 @@ def compute_perplexity(model, corpus, n_docs):
     return perplexity
 
 
-def save_results(params, file_path="results.csv"):
+def save_results(params, file_path="results/perplexities.csv"):
 
     results = pd.read_csv(file_path)
     results = results._append(params, ignore_index=True)
@@ -227,27 +223,27 @@ def sample_topics(model, corpus, n_samples=10):
 
         topics = []
         for doc in corpus:
+            topic_dist = model.get_topics()
 
             for word_id, word_count in doc:
-                # if word_id in  model.get_topics()[:, word_id] :
 
                 # the probability for a word to be assigned to a topic is proportional to the topic-word and document-topic distribution
-                topic_dist      = model.lda_alpha * model.get_topics()[:, word_id]
-                topic_dist_norm = topic_dist / sum(topic_dist)
-                topic_id        = np.random.choice(np.arange(len(topic_dist_norm)), 1, p=topic_dist_norm)
-
-                # TODO: update believes on topics
+                topic_dist_word         = model.lda_alpha * topic_dist[:, word_id]
+                topic_dist_normalized   = topic_dist_word / sum(topic_dist)
+                topic_id                = np.random.choice(np.arange(len(topic_dist_normalized)), 1, p=topic_dist_normalized)
 
                 topics.append(topic_id[0])
         n_sampled_topics.append(len(set(topics)))
 
-    return set(topics)
+    # save samples to file
+    samples = pd.read_csv("results/samples.csv")
+    samples = samples._append({"sampled_topics": n_sampled_topics}, ignore_index=True)
+    samples.to_csv("results/samples.csv", index=False)
+
+    return n_sampled_topics
 
 
-
-
-
-def show_results(file_path="results.csv"):
+def show_results(file_path="results/perplexities.csv"):
     '''
     Show the results of the cross-validation
     '''
@@ -263,3 +259,19 @@ def show_results(file_path="results.csv"):
     plt.ylabel("Perplexity")
     plt.legend()
     plt.show()
+
+def show_samples(file_path="results/samples.csv"):
+    '''
+    Show the number of topics generated by HDP over n posterior samples
+    '''
+
+    samples = pd.read_csv(file_path)
+    samples = samples["sampled_topics"].values
+
+    plt.hist(samples, bins=range(min(samples), max(samples)+1), align="left", rwidth=0.8)
+    plt.xticks(np.arange(min(samples), max(samples), 1))
+    plt.xlabel("Number of Topics")
+    plt.ylabel("Frequency")
+    plt.show()
+
+show_samples()

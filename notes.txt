@@ -1,9 +1,0 @@
-HDP performs much better on a corpus that is less processed. By less processed, I mean:
-    - Not filtered for stop words
-    - Not lemmatized
-    - Not stemmed
-    - Not enriched with multigrams
-    - Not filtered for common/uncommon words
-
-There's quite a difference between batch and non-batch (I also saw a paper mentioning this, so cite it).
-I guess that's because of the "gradient descent"

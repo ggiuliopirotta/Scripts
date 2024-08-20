@@ -1,4 +1,4 @@
-import numpy as np
+import  numpy as np
 from    gensim.models import LdaModel, HdpModel
 import  utils
 import  time
@@ -59,7 +59,7 @@ def train_hdp(corpus, dictionary, logger, chunk_size=chunk_size):
         corpus      = corpus,
         id2word     = dictionary,
         chunksize   = chunk_size,
-        T           = 200
+        T           = 150
     )
     _end    = time.time()
 
@@ -83,7 +83,6 @@ def train_hdp(corpus, dictionary, logger, chunk_size=chunk_size):
 def cross_validate(corpus, dictionary, model_type, model_params={}, n_folds=5):
 
     # shuffle and split the corpus into n_folds parts
-    # corpus      = utils.shuffle_corpus(corpus)
     folds_size  = len(corpus) // n_folds
     folds       = utils.create_folds(corpus, folds_size)
 
@@ -98,7 +97,7 @@ def cross_validate(corpus, dictionary, model_type, model_params={}, n_folds=5):
             if j != i:
                 for doc in docs:
                     train_corpus.append(doc)
-        # train_corpus    = [doc for j, doc in enumerate(folds) if j != i]
+
         logger          = utils.create_logger(f"{model_type}-n_topics:{model_params.get('n_topics', lda_topics)}-fold:{i}")
 
         if model_type == "LDA":
